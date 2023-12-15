@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+.header {
+    display: flex;
+    height: 55px;
+    width: auto;
+    background-color: rgba(0, 32, 90, 0.856);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 150px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 200px;
+    object-fit: cover;
+    margin-left: 150px;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 32, 90, 0.856);
+}
+
+.text1{
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.text2 {
+    padding-right: 100px;
+    width: 300px;
+    text-align: left;
+    font-weight:lighter;
+    margin-top: 16px;
+    color: rgba(255, 255, 255, 0.859);
+}
+
+.button1 {
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(0, 170, 255);
+    margin-top: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+.school-supplies {
+    width: auto;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+    height: 350px;
+}
+
+p {
+    width: 300px;
+}
+
+.product-image-1, .product-image-2, .product-image-3 {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(0, 170, 255);
+}
+
+.info-header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.quote {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+}
+.quote-by {
+    align-self: flex-end;
+    margin-right: 400px;
+    font-weight: bolder;
+
+}
+.quote-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size:x-large;
+    padding-bottom: 0;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(0, 170, 255);
+    justify-content: flex-start;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.cta-text {
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.cta-text-1 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.cta-text-2 {
+    font-weight: lighter;
+}
+
+.cta-button {
+    margin-left: auto;
+    margin-right: 50px;
+    height: auto;
+    width: 100px;
+    background-color: rgb(0, 170, 255);
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: rgba(0, 32, 90, 0.856);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.footer-link {
+    color: white;
+}
+
